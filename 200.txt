@@ -1,0 +1,79 @@
+http --verbose POST https://apps.collabservnext.com/connections/opensocial/oauth/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:78660951-9c2c-48de-a5db-b5a43ac24d6c/@all "Authorization:Bearer 936bbd56f4ea8c6aff7f800d2ba20da4496cffc7852110d06e4c7657867b83ba4cab1e251f04297dba60a9d55d60f41c90f58e88d908bb21c77ede97816159d318e166203d7c44b544d9d20b8ada0585c4ffa43e915334b2504b2658272821c21c6f0904f8c0d79ee18876eda0bda8c1f5b3d794fd3e1904e5d599a2d8c8ec23" < ./update.json
+
+POST /connections/opensocial/oauth/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:78660951-9c2c-48de-a5db-b5a43ac24d6c/@all HTTP/1.1
+Accept: application/json
+Accept-Encoding: gzip, deflate
+Authorization: Bearer 936bbd56f4ea8c6aff7f800d2ba20da4496cffc7852110d06e4c7657867b83ba4cab1e251f04297dba60a9d55d60f41c90f58e88d908bb21c77ede97816159d318e166203d7c44b544d9d20b8ada0585c4ffa43e915334b2504b2658272821c21c6f0904f8c0d79ee18876eda0bda8c1f5b3d794fd3e1904e5d599a2d8c8ec23
+Connection: keep-alive
+Content-Length: 1339
+Content-Type: application/json
+Host: apps.collabservnext.com
+User-Agent: HTTPie/0.9.2
+
+{
+    "actor": {
+        "id": "David Pinn", 
+        "image": {
+            "url": "https://github-dev.appspokes.net/assets/images/github.png"
+        }, 
+        "objectType": "person"
+    }, 
+    "generator": {
+        "displayName": "GitHub", 
+        "id": "appspokes.github.v3", 
+        "image": {
+            "url": "http://cbcc0363.ngrok.io/assets/images/favicon/favicon-32x32.png"
+        }, 
+        "url": "https://github.com"
+    }, 
+    "object": {
+        "displayName": "appfusions/test", 
+        "id": "github.afee5ede-86de-4454-9eca-29e95a4a3c39", 
+        "objectType": "note", 
+        "summary": "<ul><li>Test 43</li></ul>", 
+        "url": "https://github.com/appfusions/test"
+    }, 
+    "openSocial": {
+        "embed": {
+            "context": {
+                "debug": true, 
+                "height": 280, 
+                "url": "https://apps.collabservnext.com/github/assets/github-ee/ee.html", 
+                "width": 370
+            }, 
+            "gadget": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.ee.cloud/cloudee.xml"
+        }
+    }, 
+    "published": "2015-11-16T03:08:10.404Z", 
+    "target": {
+        "displayName": "GitHub", 
+        "id": "github", 
+        "url": "https://github.com"
+    }, 
+    "title": “Patrick Li pushed 1 changes to ${Target} repository ${Object}", 
+    "verb": "post"
+}
+
+HTTP/1.1 200 OK
+Set-Cookie: LtpaToken2=31o3G8TnLeTshKzdacDBmiR03OAQEPy7w3xCiGZjRFWU1YPBXdCIVN8WYbHpfts0gM+DeghCi25HoyEkNZgYIIsRwbofbRFDQjNBmKrhGIb/RUHILgjeVwxuykfQZvUo3HFkd7U0iQ1qKPFzaLkiUsyKtqXMrPQr3d2sAYUzIy9dbtxN461KuOnGKFQI0vdzaJITy8BBRxY9kshL055anZ+iZu54RsUeQiIp2WMkDm3/EIF5ND5suejnKHZwvNuvvxKwVK/Yx3xNth7XriJoE3M77cJWxaNtl09KAuBZKNPGN38e3P9RPYG5iepbIOz0PWCsSWai08QvppDfSL7H293+A6SvytBVyCooR27tbi5cJ15bufYjBUjKduAHrPq0/dTQuVCOM20dV5iAOEC772AE+h8VfqZsw/IeYuqJuQMFOm2TSrv2hx4O3MDuflOOkA1RcAd1tpQgK2a98IQrg0dKTYoqaa+cLlJxumFEEabs3xJsk6zsOnMKPMWtf4Ri3eX0q9PmJnpgVXo3g8GuCgO+RU5ye9ibeFONhSmHyhWC/oAgd+O936sY8gTnPT7PWTgdL3rtcmO1IB3AcjE6CMmJcAuYY3HhGReWfndD5koayXTSO7mJo4f6u3FAlLRqmwnPBssFZEyY4TkGb937pjkhlpB9lWBterOJEvF03IfC3swmPFY+I9HYvv8IgDxtKxCBHcx9WhYZ9gQSANDIcCKOJd0Tz46pxEZHnd8LUldt+mHHMHV+NxiRrkaJMQR9; Path=/; Secure
+Set-Cookie: user_lang=ZW5fVVM%3D-MjAxMTQwMzQ%3D; Domain=collabservnext.com; Path=/; Expires=Fri, 04-Dec-15 10:49:57 GMT; Secure
+Set-Cookie: BIGipServer~CA1B~CA1B-AC-9084=!JRXqgRWFhURv60fOwijWRGNtWgYOppxv0cC73CByyWUYMy8SYd8AwEwE05biy0pKWadDWV3gJox1QDQ=; Path=/; Secure
+Set-Cookie: BIGipServer~CA1B~CA1B-WebSEAL-80=!K3ZfAh6wg5ZPwbbOwijWRGNtWgYOpsO1VxaGjYDuSqBjkVtgS+a4LKKQ074DkiKH9yWv89MVvQ2Lyw==; path=/; Secure
+cache-control: private, must-revalidate, max-age=0, no-cache=set-cookie, private, must-revalidate
+content-encoding: gzip
+content-language: en-US
+content-type: application/json
+date: Thu, 03 Dec 2015 10:49:57 GMT
+expires: Thu, 01 Dec 1994 16:00:00 GMT
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+transfer-encoding: chunked
+vary: Accept-Encoding
+x-lconn-auth: true
+x-powered-by: Servlet/3.0
+x-ua-compatible: IE=edge
+
+{
+    "entry": {
+        "id": "urn:lsid:lconn.ibm.com:activitystreams.story:4866f2e8-5c53-4ab7-9fa5-9337c0aeeb0b"
+    }
+}
