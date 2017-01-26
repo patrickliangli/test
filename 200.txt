@@ -1,4 +1,4 @@
-Patrick edit 5
+Patrick edit 51
 
 http --verbose POST https://apps.collabservnext.com/connections/opensocial/oauth/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:78660951-9c2c-48de-a5db-b5a43ac24d6c/@all "Authorization:Bearer 936bbd56f4ea8c6aff7f800d2ba20da4496cffc7852110d06e4c7657867b83ba4cab1e251f04297dba60a9d55d60f41c90f58e88d908bb21c77ede97816159d318e166203d7c44b544d9d20b8ada0585c4ffa43e915334b2504b2658272821c21c6f0904f8c0d79ee18876eda0bda8c1f5b3d794fd3e1904e5d599a2d8c8ec23" < ./update.json
 
